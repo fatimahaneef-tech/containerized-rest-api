@@ -43,7 +43,6 @@ Landscape, left to right: **Host -> Docker network box -> Volume**. Use three zo
 3. `api` starts (`depends_on: condition: service_healthy`).
 4. API serves `/health` (liveness) and `/health/ready` (readiness, runs `SELECT 1`).
 
-## Colors (suggested)
 
 
 ## Mermaid version
