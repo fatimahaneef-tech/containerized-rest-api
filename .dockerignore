@@ -1,0 +1,22 @@
+# Dependencies are installed inside the image, never copied from the host
+node_modules
+npm-debug.log*
+
+# Secrets and local config must never enter an image
+.env
+.env.*
+!.env.example
+
+# Version control and editor noise
+.git
+.gitignore
+.vscode
+.idea
+
+# Files the image doesn't need
+Dockerfile
+docker-compose*.yml
+.dockerignore
+README.md
+db
+*.log
