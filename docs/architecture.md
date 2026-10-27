@@ -45,7 +45,6 @@ Landscape, left to right: **Host -> Docker network box -> Volume**. Use three zo
 
 ## Colors (suggested)
 
-API container blue, database container green, volume orange, config files grey, network boundary dashed black.
 
 ## Mermaid version
 
